@@ -160,7 +160,6 @@ border:none;
       width:30%; */
 
       padding: 15px 20px;
-    /* height: 56px; */
     gap: 10px;
     font-Weight: 700;
     font-size: 17px;
@@ -168,6 +167,8 @@ border:none;
     Align-items: Center;
  
 }
+
+/* Not relevant */
 
 .storeimgflex{
     display:flex;
@@ -275,7 +276,6 @@ border:none;
 .nlbg{
     background:#eff2fc;
     width:83%;
-    /* padding-top:40px; */
     padding-top: 13px;
     padding-bottom:13px;
     margin:auto;
@@ -298,7 +298,6 @@ border:none;
 }
 
 .nlbg input{
-    /* width: 100%; */
     padding-right:70%;
     height: 90px;
     color:#A4A3A7;
@@ -315,10 +314,10 @@ border:none;
     padding-left:20px;
     font-weight:500;
     font-family: 'Plus Jakarta Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 32px;
   }
 
 .nlsub{
@@ -365,9 +364,8 @@ box-shadow: 0px 4.2223px 8.4446px rgba(0, 0, 0, 0.06), 0px 4.2223px 12.6669px rg
     background-size: cover;
     background-position: 0% 0%;
     background-repeat: no-repeat;
- 
 }
-
+/* 
 .footerflex{
     display:flex;
     width:75%;
@@ -401,7 +399,7 @@ box-shadow: 0px 4.2223px 8.4446px rgba(0, 0, 0, 0.06), 0px 4.2223px 12.6669px rg
 .footertwo li {
     margin-bottom:20px;
     font-weight:200;
-}
+} */
 
 .fwlimgflex{
     display:flex;
@@ -436,51 +434,50 @@ box-shadow: 0px 4.2223px 8.4446px rgba(0, 0, 0, 0.06), 0px 4.2223px 12.6669px rg
 @media (max-width: 900px) {
 
     .heroflex{
-        display:block;
-        width:82%;
-        margin:auto;
-        padding-top:10px;
+        display:block !important;
+        width:82% !important;
+        margin:auto !important;
+        padding-top:10px !important;
     }
 
     .heroflex h1 {
-        color: #001D4B;
-        font-size: 35px;
-        line-height: 2.9rem;
+        color: #001D4B !important;
+        font-size: 35px !important;
+        line-height: 2.9rem !important;
     }
 
     .mainherop {
-    margin-top: 17px;
+    margin-top: 17px !important;
 }
 
 .heroimg img {
-    margin:auto;
-    align-items:center;
-   margin-top:40px;
+    margin:auto !important;
+    align-items:center !important;
+   margin-top:40px !important;
 }
 
 .wlflex{
-    display:block;
+    display:block !important;
 }
 
 .wlbtn button {
    margin:auto;
-   text-align:center;
-   align-items:center;
-   margin-left: 0px;
-   width:100%;
-   margin-top:20px;
+   text-align:center !important;
+   align-items:center !important;
+   margin-left: 0px !important;
+   width:100% !important;
+   margin-top:20px !important;
 }
 
 .wlbtn input {
-  
-    padding-left: 10px;
-    padding-right: 0px;
-    width: 100%;
+    padding-left: 10px !important;
+    padding-right: 0px !important;
+    width: 100% !important;
    
 }
 
     .whyflex {
-        display: block;
+        display: block !important;
     }
 
     br{

@@ -1,6 +1,253 @@
 <!DOCTYPE html> 
 <html>
 <head>
+  <style>
+
+body {
+    margin:0;
+    padding:0;
+    font-family: Plus Jakarta Sans;
+}
+
+li{
+    text-decoration:none;
+    list-style:none;
+}
+
+.nlbg input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #A4A3A7;
+    opacity: 1; /* Firefox */
+    padding-left:20px;
+    font-weight:500;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 32px;
+  }
+
+    
+/*  MEDIA QUERY */
+
+@media (max-width: 900px) {
+
+  .desktopnavflex{
+    display:none !important;
+  }
+
+  .wlbtn{
+    margin: auto !important;
+    text-align: center !important;
+    align-items: center !important;
+    margin-left: 0px !important;
+    width: 100% !important;
+    margin-top: 20px !important;
+}
+
+.heroflex{
+    display:block !important;
+    width:82% !important;
+    margin:auto !important;
+    padding-top:10px !important;
+}
+
+.heroflex h1 {
+    color: #001D4B !important;
+    font-size: 35px !important;
+    line-height: 2.9rem !important;
+}
+
+.mainherop {
+margin-top: 17px !important;
+}
+
+.heroimg img {
+margin:auto !important;
+align-items:center !important;
+margin-top:40px !important;
+}
+
+.wlflex{
+display:block !important;
+}
+
+.wlbtn button {
+margin:auto;
+text-align:center !important;
+align-items:center !important;
+margin-left: 0px !important;
+width:100% !important;
+margin-top:20px !important;
+}
+
+.wlbtn input {
+padding-left: 10px !important;
+padding-right: 0px !important;
+width: 100% !important;
+
+}
+
+.whyflex {
+    display: block !important;
+}
+
+br{
+    display:none !important;
+}
+
+.bluebtn {
+    width: 100% !important;
+}
+
+.storeimgflex {
+    display: none !important;
+}
+
+.whymainh {
+    margin: left !important;
+    text-align: left !important;
+    font-size: 24px !important;
+    padding-bottom: 15px !important;
+}
+
+.thirdflex {
+    display: block !important;
+}
+
+.buysellimg {
+    flex-basis: 0% !important;
+    margin-right: 0px !important;
+    width:100% !important;
+}
+
+.buysellimg img {
+    width: 100% !important;
+    padding-left:40px !important;
+    overflow:hidden !important;
+}
+
+.thirdflex {
+    display: block !important;
+}
+
+.example {
+    display: block !important;
+    position:relative !important;
+}
+
+ 
+.thirdflex h1 {
+    color: #001D4B !important;
+    font-size: 35px !important;
+    font-weight: 800 !important;
+    padding-top: 70px !important;
+    padding-bottom: 4px !important;
+    line-height: 3rem !important;
+}
+
+.nlbg input {
+    width: 100% !important;
+    padding-right: 10px !important;
+    height: 90px !important;
+    border: none !important;
+    padding-bottom: 80px !important;
+    background: #FFFFFF !important;
+    border-radius: 12px !important;
+    float: left !important;
+    margin-left: 0px !important;
+}
+
+
+
+.nlbg h1 {
+    font-size: 35px !important;
+    color: #001D4B !important;
+    font-weight: 800 !important;
+    padding-left:20px !important;
+    padding-right:20px !important;
+}
+
+.nlbg {
+    background: #eff2fc !important;
+    width: 83% !important;
+    padding-top: 13px !important;
+    padding-bottom: 180px !important;
+    margin: auto !important;
+    border-radius: 30px !important;
+    align-items: center !important;
+    text-align: center !important;
+    margin-top: 100px !important;
+}
+
+
+.nlbg p{
+    padding-left:20px !important;
+    padding-right:20px !important;
+}
+
+.mysub{
+    background:#2574F5 !important;
+    height: 60px !important;
+    border:none !important;
+    color:white !important;
+    font-size: 14px !important;
+    font-weight:500 !important;
+    border-radius: 8px !important;
+    padding: 14px 30px !important;
+    margin-left: 0px !important;
+    position:absolute !important;
+    top: 100px !important;
+    right:0px !important;
+    left:0px !important;
+    width:90% !important;
+    margin:auto !important;
+    border: none !important;
+    box-shadow: 0px 4.2223px 8.4446px rgba(0, 0, 0, 0.06), 0px 4.2223px 12.6669px rgba(0, 0, 0, 0.1) !important;
+    }
+
+    /* Footer */
+.footerflex{
+display: block !important;
+width: 82% !important;
+padding-right: 0px !important;
+}
+
+.footerone{
+margin-bottom:40px !important;
+}
+
+.footertwo{
+margin-bottom:40px !important;
+}
+
+.fwlimgflex {
+display: flex !important;
+justify-content: space-between !important;
+margin: 0 !important;
+margin-left:20px !important;
+align-items:right !important;
+width: 75% !important;
+}
+
+.fwltextflex {
+display: block !important;
+margin: 0 !important;
+margin-left:20px !important;
+align-items:right !important;
+width: 80% !important;
+}
+
+.desktopnavflexx {
+display: flex !important;
+width: 80% !important;
+justify-content: space-between !important;
+margin: auto !important;
+align-items: center !important;
+padding-top: 35px !important;
+padding-bottom: 28px !important;
+}   
+}
+  </style>
     <meta charset="UTF-8">
     <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,29 +256,35 @@
 <meta name="description" content="Providing Technology business solutions for small, medium, and large enterprises.">
 <meta name="keyword" content="Easy and secure way to buy, sell and trade crypto">
 <title> Nazza </title>
-<link rel="stylesheet" href="css/style.css">
+<!-- <link rel="stylesheet" href="css/style.css"> -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>  
 <body>
     <!-- Begin nav -->
-    <nav>
+    <nav style="background: #EFF3FF;
+    border-bottom: 1px solid #EBEBEB;">
 
-        <div class="desktopnavflex"> 
-
+        <div class="desktopnavflex" style="display:flex;
+        width:86%;
+        justify-content:space-between;
+        margin:auto;
+        align-items:center;
+        padding-top:35px;
+        padding-bottom:28px;"> 
         <div class="desktopnavimg">
-          <img src="Images/nazzamain.png"/> 
+          <img src="Images/nazzamain.png" width="150px"/> 
         </div> 
 
     </div>
 
     <!--  -->
 
-    <div class="desktopnavflexx"> 
+    <div class="desktopnavflexx" style="display:none"> 
 
 <div class="desktopnavimgg">
-  <img src="Images/nazzamain.png"/> 
+  <img src="Images/nazzamain.png" style="width: 150px;"/> 
 </div> 
 
 <div class="navres"> 
@@ -44,59 +297,99 @@
 
       </nav>
     <!-- End Nav -->
-    <div class="heroflex">
+    <div class="heroflex" style="  display:flex;
+    justify-content:space-between;
+    width:85%;
+    margin:auto;
+    padding-top:60px;">
 
         <div>
-          <h1 class="mainheroh1"> Easy and  Secure way To 
+          <h1 class="mainheroh1" style=" color:#001D4B;
+          font-size:62px;
+          line-height:6.5rem;"> Easy and  Secure way To 
          Buy,Sell and Trade Crypto </h1> 
-         <p clas="mainherop"> Nazza is an easy, convenient and secure means to convert assets <br/> 
+         <p clas="mainherop" style="  font-size:20px;
+         line-height:2.3rem;
+         margin-top:-24px;"> Nazza is an easy, convenient and secure means to convert assets <br/> 
           between cryptocurrencies, fiat and other currencies, that buys and holds <br/>
          cryptocurrency for value appreciation. </p>
   
-         <div class="wlflex"> 
+         <div class="wlflex" style=" display:flex;
+         margin-top:35px;"> 
   
-          <div class="wlbtn">
-            <input type="email" id="email" name="email" class="form-field" placeholder="Enter your Email"> 
-         </div> 
-  
-          <div class="wlbtn">
-          <a href="confirmation.html"> <button> Join the waiting list </button> </a>
-         </div> 
+          <div class="wlbtn" >
+            <form action="confirmation.html" method="GET"> 
+            <input style="    padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 171px;
+            border-radius: 3px;
+            font-Weight:400;
+            font-Size:15.5px;
+            border: 0.1px solid #A4A3A7;" type="email" id="email" name="email" class="form-field" placeholder="Enter your Email" required > 
+       <input style="background: #B8D3FF;
+          border-radius: 8px;
+          align-items: center;
+          padding: 15px 40px;
+          margin-left:20px;
+          /* height: 56px; */
+          gap: 10px;
+          font-Weight:700;
+          font-size:17px;
+          Line-height:32px;
+          Align-items:Center;
+          color:#0647B1;
+          border:none;" class="wlbtn" type="submit" value="Join the wating list"> 
+        
+        </form>
+        
+            </div> 
   
            </div>
-         
-
   
         </div>
   
         <div class="heroimg"> 
-          <img src="Images/phone.png"> 
+          <img src="Images/phone.png" style="width: 320px;"> 
         </div>
   
       </div> 
   
       <!-- Second -->
-      <div class="whybg"> 
+      <div class="whybg" style="  background:#f9fbff;
+      padding-top:30px;
+      padding-bottom:30px;"> 
   
-      <div class="whymain">
+      <div class="whymain"style=" width:82%;
+      margin:auto;">
   
-        <div class="whymainh"> 
-          <h2> Why <span className="bluespan">Nazza </span> is reliable </h2> 
+        <div class="whymainh" style=" margin:auto;
+        text-align:center;
+        font-size:29px;
+        padding-bottom:15px;"> 
+          <h2> Why <span className="bluespan" style="color:#2574F5;">Nazza </span> is reliable </h2> 
         </div>
   
         <!-- Flex box side -->
-        <div class="whyflex">
+        <div class="whyflex" style=" display:flex;
+        justify-content:space-between;">
   
-        <div class="why"> 
-        <h4> <span class="darkbluespan"> Nazza is </span>  <span class="bluespan"> easy to use </span>  </h4> 
+        <div class="why" style="flex-basis:25%;
+        font-weight:500;
+        line-height:1.8rem;"> 
+        <h4 style=" font-size:25px;
+        font-weight:800;"> <span class="darkbluespan" style="color:#001D4B;"> Nazza is </span>  <span class="bluespan" style="color: rgb(37, 116, 245);"> easy to use </span>  </h4> 
         <p> Everyone enjoys using an easy-to-use platform, 
           so offering you seamless services that you can 
           use without having to exert much effort is our
            top priority.</p> 
         </div>
   
-        <div class="why"> 
-        <h4> <span class="darkbluespan"> Nazza is </span> <span class="bluespan"> secure </span> </h4> 
+        <div class="why" style="flex-basis:25%;
+        font-weight:500;
+        line-height:1.8rem;"> 
+        <h4 style=" font-size:25px;
+        font-weight:800;"> <span class="darkbluespan" style="color:#001D4B;"> Nazza is </span> <span class="bluespan" style="color: rgb(37, 116, 245);"> secure </span> </h4> 
         <p> We are confident in saying that your 
           cryptocurrency is in the right hands 
           because our secure platform is 
@@ -104,8 +397,11 @@
           the world. </p> 
         </div>
   
-        <div class="why"> 
-        <h4> <span class="darkbluespan"> Nazza is </span>  <span class="bluespan"> very fast </span>  </h4> 
+        <div class="why" style="flex-basis:25%;
+        font-weight:500;
+        line-height:1.8rem;"> 
+        <h4 style="    font-size: 25px;
+        font-weight: 800;"> <span class="darkbluespan" style="color:#001D4B;"> Nazza is </span>  <span class="bluespan" style="color: rgb(37, 116, 245);"> very fast </span>  </h4> 
         <p> We are confident in saying that your 
           cryptocurrency is in the right hands 
           because our secure platform is 
@@ -122,19 +418,43 @@
     <br/> 
   
     <!-- Third -->
-    <div class="thirdbg"> 
+    <div class="thirdbg" style="background:#eff2fc;"> 
   
-    <div class="thirdflex">
+    <div class="thirdflex" style=" display:flex;
+    justify-content:space-between;
+    width:82%;
+    margin:auto;">
   
   <div>
-    <h1 class="mainheroh"> Buy, Sell and Trade Crypto <br> across all borders. </h1> 
+    <h1 class="mainheroh" style=" color:#001D4B;
+    font-size:44px;
+    font-weight:800;
+    padding-top:70px;
+    padding-bottom:4px;
+    line-height:4.9rem;"> Buy, Sell and Trade Crypto <br> across all borders. </h1> 
     <p class="mainherop"> Buy, Sell and Trade Crypto <br> across all borders. </p>
-    <button class="bluebtn"> Join the waiting list </button>
+    <button class="bluebtn" style="font-size:0.875em;
+    display:block;
+    left:-60px;
+    margin-top:35px;
+    background: #2574F5;
+    color:white;
+    border:none;
+    font-size:16px;
+    font-weight:550;  
+    box-shadow: 0px 4.2223px 8.4446px rgba(0, 0, 0, 0.06), 0px 4.2223px 12.6669px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;    padding: 15px 20px;
+    gap: 10px;
+    font-Weight: 700;
+    font-size: 17px;
+    Line-height: 32px;
+    Align-items: Center;"> Join the waiting list </button>
   
   </div>
   
-  <div class="buysellimg"> 
-    <img src="Images/buysell.png"> 
+  <div class="buysellimg" style=" flex-basis:50%;
+  margin-right:-120px;"> 
+    <img src="Images/buysell.png" style="width:100%;"> 
   </div>
   
   </div> 
@@ -143,14 +463,50 @@
   <!-- News letter -->
   <div>
   
-    <div class="nlbg"> 
-      <h1> Join the waiting list </h1>
-      <p> Be the first to know when we launch </p>
-        <form class="example"> 
+    <div class="nlbg" style="background:#eff2fc;
+    width:83%;
+    padding-top: 13px;
+    padding-bottom:13px;
+    margin:auto;
+    border-radius:30px;
+    align-items:center;
+    text-align:center;
+    margin-top:100px;"> 
+      <h1 style="font-size:45px;
+      color:#001D4B;
+      font-weight:800;"> Join the waiting list </h1>
+      <p style="font-size:22px;
+      color:#001D4B;
+      font-weight:500;"> Be the first to know when we launch </p>
+        <form class="example" style="display:flex;
+        width:85%;
+        align-items:center;
+        padding-top:20px;
+        padding-bottom:30px;
+        margin:auto;
+        align-items:center;
+        text-align:center;"> 
     
-        <input placeholder="Enter Email addresss" class="myinput"/> 
+        <input placeholder="Enter Email addresss" class="myinput" style="padding-right:70%;
+        height: 90px;
+        color:#A4A3A7;
+        border:none;
+        background: #FFFFFF;
+        border-radius: 12px;
+        float: left;
+        margin-left:50px;"/> 
   
-        <button class="mysub"> Join the waiting list </button>
+        <button class="mysub"  style="background:#2574F5;
+        height: 70px;
+        border:none;
+        color:white;
+        font-size: 16px;
+        font-weight:600;
+        border-radius: 8px;
+        padding: 14px 27px;
+        margin-left: -230px;
+        border: none;
+        box-shadow: 0px 4.2223px 8.4446px rgba(0, 0, 0, 0.06), 0px 4.2223px 12.6669px rgba(0, 0, 0, 0.1);"> Join the waiting list </button>
         </form>
       </div>
   
@@ -169,41 +525,57 @@
     
   
   <!-- Footer -->
-  <div class="footerbg"> 
+  <div class="footerbg" style=" background: #001D4B;
+  color:white;
+  margin-top:100px;
+  padding-top:70px;
+  padding-bottom:50px;
+  background-size: cover;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;"> 
   
-    <div class="fwlimgflex">
+    <div class="fwlimgflex" style="display:flex;
+    justify-content:space-between;
+    margin:auto;
+    width:20%;">
   
     <div class="fwlimg">
-        <img src="Images/ig.png"> 
+        <img src="Images/ig.png" style="width:22px;"> 
     </div>
   
     <div class="fwlimg">
-        <img src="Images/twitter.png"> 
+        <img src="Images/twitter.png" style="width:22px;"> 
     </div>
   
     <div class="fwlimg">
-        <img src="Images/fb.png"> 
+        <img src="Images/fb.png" style="width:22px;"> 
     </div>
   
     <div class="fwlimg">
-        <img src="Images/yt.png"> 
+        <img src="Images/yt.png" style="width:22px;"> 
     </div>
   
   
     <div class="fwlimg">
-        <img src="Images/li.png"> 
+        <img src="Images/li.png" style="width:22px;"> 
     </div>
   
   </div> 
   
-  <div class="fwltextflex">
+  <div class="fwltextflex" style=" display:flex;
+  justify-content:space-between;
+  margin:auto;
+  width:25%;
+  margin-top:-20px;">
   
   <div>
-    <h4> help@mynazza.com </h4>
+    <h4 style="font-weight:300;
+    font-size:16px;"> help@mynazza.com </h4>
   </div> 
   
   <div>
-    <h4> @2022. Nazza Inc </h4>
+    <h4 style="font-weight:300;
+    font-size:16px;"> @2022. Nazza Inc </h4>
   </div> 
   </div> 
   
